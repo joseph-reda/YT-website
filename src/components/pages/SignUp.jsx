@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 import cover from "../../assts/images/img-3.jpg";
 

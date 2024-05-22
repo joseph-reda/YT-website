@@ -15,7 +15,7 @@ const Navbar = () => {
     };
 
     const handelMenu = () => {
-        if (window.innerWidth <= 650) setMenu(true);
+        if (window.innerWidth <= 800) setMenu(true);
         else setMenu(false);
     };
 
@@ -42,7 +42,7 @@ const Navbar = () => {
                     {menu ? (
                         <div className="ml-auto">
                             {click ? (
-                                <div className="menu bg-zinc-950 absolute left-0  w-screen z-10">
+                                <div className="menu bg-zinc-950 absolute left-0 h-screen w-screen z-10">
                                     <span
                                         className="close float-end mr-10 cursor-pointer"
                                         onClick={handelClick}
