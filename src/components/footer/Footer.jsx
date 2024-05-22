@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="footer bg-zinc-900 text-white text-center">
             <div className="pt-20 ">
 
-            <h1 className="text-2xl">
+            <h1 className="text-2xl leading-none">
                 Join the Adventure newsletter to recelve our best vaction deals
             </h1>
             <h4 className="text-xl py-5">You can unsubscribe at any time</h4>
@@ -20,7 +20,7 @@ const Footer = () => {
             <button className="sub ml-10 text-lg border py-3 px-10 rounded font-medium hover:bg-zinc-600 hover:border-slate-700">Subscribe</button>
             </div>
             <div className="links my-28 text-center">
-                <div className="grid grid lg:grid-cols-4 md:grid-cols-3 gap-10">
+                <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-10">
                     <div className="grid gap-3 place-content-center">
                         <h1 className="text-2xl text-left font-medium">About Us</h1>
                         <ul className="text-left text-lg">
