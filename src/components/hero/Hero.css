@@ -1,0 +1,28 @@
+.hero button{
+    border-width: 2px;
+    transition: .8s;
+}
+
+.hero button:nth-child(1):hover{
+    color: black;
+    background-color: rgb(226 232 240);
+    border: none;
+}
+.hero button:nth-child(2):hover{
+    color: #fff;
+    background-color: rgb(24 24 27);
+    border: 2px solid #fff;
+}
+
+@media(max-width: 610px){
+    .hero h1{
+        font-size: 50px;
+    }
+    .hero p{
+        font-size: 40px;
+    }
+    .hero button{
+        font-size: 20px;
+    }
+    
+}

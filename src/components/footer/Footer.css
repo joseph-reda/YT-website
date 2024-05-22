@@ -1,0 +1,20 @@
+.footer button {
+    letter-spacing: 1px;
+    transition: .3s;
+}
+
+@media screen and (max-width: 600px) {
+    .footer .sub {
+      margin-top: 10px !important;
+      margin-left: auto !important;
+    }
+    .footer .end-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+    .footer .end-footer span{
+      margin-right: 20px;
+    }
+}

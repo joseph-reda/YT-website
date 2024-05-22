@@ -1,0 +1,22 @@
+
+.navbar .menu{
+    top: 66px;
+}
+.navbar .menu ul li {
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: .15s;
+}
+
+.navbar .menu ul li:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.navbar .menu ul li button {
+    width: 80%;
+}
+
+.navbar .menu ul li:hover button {
+    border-color: #333;
+}
